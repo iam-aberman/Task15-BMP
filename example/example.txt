@@ -1,0 +1,7 @@
+Program output example
+
+InputFile1 = 'RAY.BMP'
+InputFile2 = 'black.bmp'
+OutputFile = 'res.bmp'
+
+Image dimensions: 600x800
