@@ -47,11 +47,15 @@ def task(inputFile1, inputFile2, outpurFile):
     return
 
 
-inputFile1 = sys.argv[1]
-inputFile2 = sys.argv[2]
-outputFile = sys.argv[3]
+def main():
+    inputFile1 = sys.argv[1]
+    inputFile2 = sys.argv[2]
+    outputFile = sys.argv[3]
 
-try:
-    task(inputFile1, inputFile2, outputFile)
-except FileNotFoundError:
-    print('Failure! Program terminated!')
+    try:
+        task(inputFile1, inputFile2, outputFile)
+    except FileNotFoundError:
+        print('Failure! Program terminated!')
+
+
+main()
